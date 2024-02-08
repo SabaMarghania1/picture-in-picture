@@ -23,4 +23,4 @@ button.addEventListener("click", async () => {
   button.disabled = false;
 });
 
-selectMediaStream();
+choose.addEventListener("click", selectMediaStream);
